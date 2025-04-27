@@ -1,0 +1,206 @@
+/* Importa uma fonte urbana/moderna do Google Fonts (Exemplo: Montserrat) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* Cor de fundo base - um cinza escuro urbano */
+  background-color: #212529; /* Cor dark do Bootstrap */
+  color: #f8f9fa; /* Cor light do Bootstrap */
+  /* Habilita o smooth scroll nativo do navegador */
+  scroll-behavior: smooth;
+}
+
+/* Estilizando a Navbar */
+.navbar-custom {
+  background-color: rgba(33, 37, 41, 0.85); /* Fundo semi-transparente */
+  backdrop-filter: blur(10px); /* Efeito de desfoque (moderno) */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 900; /* Bem forte */
+  font-size: 1.8rem;
+  color: #ffc107; /* Amarelo Bootstrap como destaque */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-custom .nav-link {
+  color: #f8f9fa;
+  font-weight: 700;
+  margin-left: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: #ffc107; /* Amarelo no hover/ativo */
+}
+
+/* Seção Hero (Carrossel) */
+#home {
+  padding-top: 80px; /* Ajuste para não ficar embaixo da navbar fixa */
+  min-height: 80vh; /* Altura mínima da viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x1080/444444/cccccc?text=Skate+Park+Urbano') no-repeat center center/cover; /* Placeholder - Troque a URL! */
+}
+
+.carousel-item img {
+  /* Garante que a imagem não distorça, mas pode cortar */
+  object-fit: cover;
+  /* Define uma altura padrão para os itens do carrossel */
+  height: 60vh; /* Ajuste conforme necessário */
+  /* Escurece um pouco a imagem para o texto sobressair */
+  filter: brightness(0.7);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo leve para legenda */
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.carousel-caption h3 {
+    font-weight: 900;
+    color: #ffc107; /* Amarelo */
+}
+
+.carousel-caption p {
+    font-size: 1.1rem;
+}
+
+/* Seções Gerais */
+.section {
+  padding: 80px 0;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffc107; /* Amarelo */
+}
+
+.section-heading::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #ffc107; /* Amarelo */
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+/* Estilos para Sobre */
+#sobre {
+  background-color: #343a40; /* Um cinza ligeiramente mais claro */
+}
+
+/* Estilos para Formulários */
+.form-section {
+  background-color: #2c3034; /* Outro tom de cinza */
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.form-label {
+  color: #adb5bd; /* Cinza claro para labels */
+  font-weight: 700;
+}
+
+.form-control, .form-select {
+  background-color: #495057; /* Fundo do input mais escuro */
+  border: 1px solid #6c757d; /* Borda cinza */
+  color: #f8f9fa; /* Texto branco */
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: #495057;
+  color: #f8f9fa;
+  border-color: #ffc107; /* Borda amarela no foco */
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25); /* Sombra amarela no foco */
+}
+
+/* Placeholder text color */
+.form-control::placeholder {
+  color: #adb5bd;
+  opacity: 0.7;
+}
+
+/* Botão Primário (Amarelo) */
+.btn-custom-primary {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529; /* Texto escuro para contraste */
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom-primary:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+  color: #212529;
+  transform: translateY(-2px); /* Leve efeito de levantar */
+  box-shadow: 0 5px 15px rgba(255, 193, 7, 0.2);
+}
+
+
+/* Footer */
+footer {
+  background-color: #1a1d20; /* Ainda mais escuro */
+  padding: 30px 0;
+  text-align: center;
+  color: #6c757d; /* Cinza mais suave */
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-icons a {
+    color: #6c757d;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+footer .social-icons a:hover {
+    color: #ffc107; /* Amarelo no hover */
+}
+
+/* Efeitos e Interatividade Adicionais */
+a, button {
+  transition: all 0.3s ease; /* Transição suave geral */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .section-heading {
+    font-size: 1.8rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+   .carousel-caption p {
+    font-size: 1rem;
+  }
+  #home {
+      padding-top: 70px; /* Ajuste menor para navbar menor */
+  }
+}

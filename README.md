@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Escolinha do Bob - Plataforma de Agendamento de Aulas de Skate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o repositório do projeto "Escolinha do Bob", uma plataforma web desenvolvida em React para facilitar o agendamento de aulas de skate. A plataforma permite que os usuários naveguem por informações sobre a escolinha, conheçam a equipe, verifiquem a disponibilidade de horários e realizem o agendamento de aulas de forma intuitiva.
 
-## Available Scripts
+## Funcionalidades Principais
 
-In the project directory, you can run:
+* **Página Inicial:** Apresenta uma visão geral da escolinha, seus diferenciais e um chamado para ação.
+* **Sobre Nós:** Detalha a história da Escolinha do Bob, sua missão, visão e valores, além de apresentar a equipe de instrutores.
+* **Agendar Aula:** Permite aos usuários visualizar os horários disponíveis, selecionar o tipo de aula desejada e realizar o agendamento.
+* **Contato:** Fornece informações de contato da escolinha, como telefone, e-mail e um formulário de contato para dúvidas e informações.
+* **Navegação Intuitiva:** Barra de navegação clara e responsiva para fácil acesso a todas as seções do site.
+* **Design Atraente:** Interface de usuário amigável e com foco na experiência do usuário.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário interativas.
+* **React Bootstrap:** Biblioteca de componentes de interface do usuário construída sobre o Bootstrap, facilitando a criação de layouts responsivos e estilizados.
+* **JavaScript (ES6+):** Linguagem de programação principal para a lógica da aplicação.
+* **HTML:** Linguagem de marcação para a estrutura da página web.
+* **CSS:** Folha de estilos para a apresentação visual da aplicação (com o suporte do Bootstrap).
+* **[Outras tecnologias/bibliotecas que você possa ter usado, como:]**
+    * **[Biblioteca de ícones (e.g., Font Awesome, React Icons)]**
+    * **[Biblioteca para manipulação de datas (e.g., date-fns)]**
+    * **[Biblioteca para requisições HTTP (e.g., Axios, Fetch API)]**
+    * **[Gerenciador de estado (e.g., Context API, Redux)]**
+    * **[Roteamento (e.g., React Router)]**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pré-requisitos
 
-### `npm test`
+Antes de executar o projeto localmente, você precisará ter o seguinte instalado em sua máquina:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Node.js:** Ambiente de execução JavaScript. Você pode baixá-lo em [https://nodejs.org/](https://nodejs.org/).
+* **npm** ou **yarn:** Gerenciadores de pacotes JavaScript, instalados juntamente com o Node.js.
 
-### `npm run build`
+## Como Executar o Projeto Localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://docs.github.com/articles/referencing-and-citing-content](https://docs.github.com/articles/referencing-and-citing-content)
+    cd [nome do seu repositório]
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.  **Instale as dependências:**
+    Com `npm`:
+    ```bash
+    npm install
+    ```
+    Ou com `yarn`:
+    ```bash
+    yarn install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3.  **Execute a aplicação:**
+    Com `npm`:
+    ```bash
+    npm start
+    ```
+    Ou com `yarn`:
+    ```bash
+    yarn start
+    ```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Isso iniciará o servidor de desenvolvimento do React e abrirá a aplicação em seu navegador (geralmente em `http://localhost:3000`).

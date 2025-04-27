@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import AppNavbar from './components/Navbar';
+import HeroCarousel from './components/HeroCarousel';
+import About from './components/About';
+import ScheduleForm from './components/ScheduleForm';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="d-flex flex-column min-vh-100"> {/* Garante que o footer fique no fim */}
+      <AppNavbar />
+      <main> {/* Conteúdo principal */}
+        <HeroCarousel />
+        <About />
+        <ScheduleForm />
+        <ContactForm />
+      </main>
+      <Footer />
     </div>
   );
 }
