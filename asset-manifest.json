@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/escolinha-skate-react/static/css/main.cd9c1f6f.css",
+    "main.js": "/escolinha-skate-react/static/js/main.6ff21067.js",
+    "static/media/img1.jpeg": "/escolinha-skate-react/static/media/img1.d53f18fe182aba2f987b.jpeg",
+    "static/media/img2.jpeg": "/escolinha-skate-react/static/media/img2.43cd3441b0565fc53820.jpeg",
+    "static/media/img3.jpeg": "/escolinha-skate-react/static/media/img3.3b9594ac78a46fe13095.jpeg",
+    "static/media/bootstrap-icons.woff?": "/escolinha-skate-react/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/escolinha-skate-react/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/logo.png": "/escolinha-skate-react/static/media/logo.d875f626a4141d15ed61.png",
+    "index.html": "/escolinha-skate-react/index.html",
+    "main.cd9c1f6f.css.map": "/escolinha-skate-react/static/css/main.cd9c1f6f.css.map",
+    "main.6ff21067.js.map": "/escolinha-skate-react/static/js/main.6ff21067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd9c1f6f.css",
+    "static/js/main.6ff21067.js"
+  ]
+}
